@@ -1,10 +1,12 @@
 package test;
 
-import controllers.MaquinaController;
 import models.Maquina;
 import validaciones.ValidacionesMaquina;
 
 import org.junit.jupiter.api.Test;
+
+import controllers.MaquinaController;
+
 import java.util.*;
 
 public class MaquinaControllerTest {

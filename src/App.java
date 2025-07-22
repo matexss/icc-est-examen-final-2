@@ -1,14 +1,13 @@
 import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
-import java.util.Stack;
-
 import controllers.MaquinaController;
 import models.Maquina;
-
 public class App {
     public static void main(String[] args) throws Exception {
         List<Maquina> maquinas = crearMaquinas();
+
+        filtrarPorSubred();
+        ordenadPorSubred();
 
     }
 
